@@ -1,94 +1,48 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body{
+    background: repeating-radial-gradient(rgba(192,255,0),rgba(23,234,111),rgba(34,229,112));
 }
+
 .add{
     background: burlywood;
     border: 2px solid black;
     position: relative;
     top: 200px;
 }
-div.container{
-    width: 50vw;
-    overflow: hidden;
-    box-sizing: border-box;
-    background: yellow;
-    position: relative;
-    top: 100px;
-    left: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px auto 100px;
-    grid-gap: 2px;
-}
 
-div.nav{
+div.cont{
+    grid-gap: 5px;
+    box-shadow: 10px 5px 20px 10px #000000;
     background: grey;
-    display: block;
-    width: 100vw;
-    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+    grid-template-rows: rows(4,300px); 
 }
 
-li{
-    display: inline;
-    margin-right: 20px;
-}
-a{
+#header{
+    text-shadow: 2px 2px #000;
     color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-#one{
     font-size: 50px;
-    color: white;
-    box-sizing: border-box;
-    background: crimson;
     text-align: center;
-    opacity: 0.9;
+    background: lightcoral;
 }
-
-#two{
+#menu{
+    text-shadow: 3px 3px white;
+    color: rebeccapurple;
     font-size: 50px;
-    color: white;
-    box-sizing: border-box;
-    background: crimson;
+    background: lightgreen;
     text-align: center;
-    opacity: 0.9;
 }
-
-#three{
-    font-size: 50px;
+#content{
+    text-shadow: 2px 2px #000;
     color: white;
-    box-sizing: border-box;
-    background: crimson;
+    font-size: 50px;
+    background: lightseagreen;
     text-align: center;
-    opacity: 0.9;
 }
-
-#four{
+#footer{
+    text-shadow: 2px 2px #000;
+    color: green;
     font-size: 50px;
-    color: white;
-    box-sizing: border-box;
-    background: crimson;
+    background: lightgoldenrodyellow;
     text-align: center;
-    opacity: 0.9;
-}
-
-#five{
-    font-size: 50px;
-    color: white;
-    box-sizing: border-box;
-    background: crimson;
-    text-align: center;
-    opacity: 0.9;
-}
-
-#six{
-    font-size: 50px;
-    color: white;
-    box-sizing: border-box;
-    background: crimson;
-    text-align: center;
-    opacity: 0.9;
 }
